@@ -1,0 +1,21 @@
+{
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
+    "files.enableTrash": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "files.exclude": {
+        "**/.ansible-lint": true,
+        "**/.gitignore": true,
+        "**/.vault_password": true,
+        "**/ansible_tlaloc.code-workspace": true,
+        "**/bashaliases.sh": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "ansible.lightspeed.enabled": false,
+    "ansible.lightspeed.suggestions.enabled": false,
+    "editor.defaultFormatter": "vscode.css-language-features"
+}
