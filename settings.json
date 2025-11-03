@@ -1,21 +1,23 @@
 {
-    "workbench.startupEditor": "none",
-    "redhat.telemetry.enabled": false,
-    "git.openRepositoryInParentFolders": "always",
-    "files.enableTrash": false,
-    "explorer.confirmDelete": false,
+    "ansible.python.interpreterPath": "/bin/python",
     "git.autofetch": true,
+    "files.trimTrailingWhitespace": true,
+    "ansible.lightspeed.enabled": false,
+    "ansible.lightspeed.suggestions.enabled": false,
     "git.enableSmartCommit": true,
+    "redhat.telemetry.enabled": false,
     "files.exclude": {
         "**/.ansible-lint": true,
         "**/.gitignore": true,
         "**/.vault_password": true,
-        "**/ansible_tlaloc.code-workspace": true,
         "**/bashaliases.sh": true
     },
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "ansible.lightspeed.enabled": false,
-    "ansible.lightspeed.suggestions.enabled": false,
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.mouseWheelZoom": true,
+    "telemetry.feedback.enabled": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.defaultFormatter": "redhat.ansible",
+    "editor.formatOnPaste": true
 }
